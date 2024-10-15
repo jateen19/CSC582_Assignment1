@@ -9,7 +9,7 @@ public:
     ~HalfAdder();
 
     // Set inputs A and B for the half adder
-    void setInputs(const unsigned short int a, const unsigned short int b);
+    void setInputs(const unsigned short int usiA, const unsigned short int usiB);
 
     // Get the calculated sum (A ⊕ B)
     unsigned short int getSum() const;
