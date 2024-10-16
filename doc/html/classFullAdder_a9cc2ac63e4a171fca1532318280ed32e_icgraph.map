@@ -1,0 +1,5 @@
+<map id="FullAdder::getCarry" name="FullAdder::getCarry">
+<area shape="rect" id="Node000001" title="Returns the carry&#45;out (CarryOut) calculated by the FullAdder." alt="" coords="192,5,339,31"/>
+<area shape="rect" id="Node000002" href="$classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,5,144,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,21,145,21,145,15,178,15"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="FullAdder::setInputs" name="FullAdder::setInputs">
+<area shape="rect" id="Node000001" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,5,343,31"/>
+<area shape="rect" id="Node000002" href="$classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,5,144,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,21,145,21,145,15,179,15"/>
+</map>

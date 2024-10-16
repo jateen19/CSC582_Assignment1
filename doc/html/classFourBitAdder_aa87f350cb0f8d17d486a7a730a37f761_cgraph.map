@@ -1,0 +1,16 @@
+<map id="FourBitAdder::add" name="FourBitAdder::add">
+<area shape="rect" id="Node000001" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,55,144,80"/>
+<area shape="rect" id="Node000002" href="$classFullAdder.html#a9cc2ac63e4a171fca1532318280ed32e" title="Returns the carry&#45;out (CarryOut) calculated by the FullAdder." alt="" coords="194,5,341,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,52,203,32,204,37,126,57"/>
+<area shape="rect" id="Node000004" href="$classFullAdder.html#abf1c8fbde7b532999e42d4aa0616e909" title="Returns the sum (A ⊕ B ⊕ CarryIn) calculated by the FullAdder." alt="" coords="197,55,338,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,65,183,65,183,70,144,70"/>
+<area shape="rect" id="Node000006" href="$classFullAdder.html#a4e93e556929d63a44bf112103576cba1" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,104,343,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="126,77,204,98,203,103,124,83"/>
+<area shape="rect" id="Node000003" href="$classHalfAdder.html#a79ea9823ff446a95032b933f914c511c" title="Gets the carry (A AND B) calculated by the half&#45;adder." alt="" coords="393,5,543,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,15,379,15,379,21,341,21"/>
+<area shape="rect" id="Node000005" href="$classHalfAdder.html#a38e0126a4cbd25cfdaf72e7399f09743" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="395,55,541,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="338,65,382,65,382,70,338,70"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="319,101,402,81,403,86,320,107"/>
+<area shape="rect" id="Node000007" href="$classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d" title="Sets the input values for the half&#45;adder." alt="" coords="391,104,545,129"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="343,114,377,114,377,119,343,119"/>
+</map>

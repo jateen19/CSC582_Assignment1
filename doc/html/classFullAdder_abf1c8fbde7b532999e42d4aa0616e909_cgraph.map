@@ -1,0 +1,5 @@
+<map id="FullAdder::getSum" name="FullAdder::getSum">
+<area shape="rect" id="Node000001" title="Returns the sum (A ⊕ B ⊕ CarryIn) calculated by the FullAdder." alt="" coords="5,5,147,31"/>
+<area shape="rect" id="Node000002" href="$classHalfAdder.html#a38e0126a4cbd25cfdaf72e7399f09743" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="195,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,15,181,15,181,21,147,21"/>
+</map>

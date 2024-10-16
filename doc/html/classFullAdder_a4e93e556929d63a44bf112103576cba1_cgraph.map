@@ -1,0 +1,7 @@
+<map id="FullAdder::setInputs" name="FullAdder::setInputs">
+<area shape="rect" id="Node000001" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="5,31,156,56"/>
+<area shape="rect" id="Node000002" href="$classHalfAdder.html#a38e0126a4cbd25cfdaf72e7399f09743" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="209,5,354,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,31,195,26,196,31,157,36"/>
+<area shape="rect" id="Node000003" href="$classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d" title="Sets the input values for the half&#45;adder." alt="" coords="204,55,359,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,50,191,54,190,59,156,55"/>
+</map>
