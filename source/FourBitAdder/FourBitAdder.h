@@ -1,3 +1,12 @@
+/**
+ * @file FourBitAdder.h
+ * @brief Declaration of the FourBitAdder class, which adds two four-bit binary numbers using four FullAdder instances.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
 #ifndef FOURBITADDER_H
 #define FOURBITADDER_H
 

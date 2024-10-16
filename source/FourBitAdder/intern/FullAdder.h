@@ -1,3 +1,14 @@
+/**
+ * @file FullAdder.h
+ * @brief Declaration of the FullAdder class, representing a full-adder circuit that includes two half-adders.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
+
 #ifndef FULLADDER_H
 #define FULLADDER_H
 

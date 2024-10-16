@@ -1,3 +1,13 @@
+/**
+ * @file FullAdder.cpp
+ * @brief Implements the FullAdder class, combining two half-adders to perform binary addition of two bits and a carry-in.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
 #include "FullAdder.h"
 
 /**

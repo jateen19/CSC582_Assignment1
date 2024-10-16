@@ -1,3 +1,13 @@
+/**
+ * @file HalfAdder.cpp
+ * @brief Implements the HalfAdder class, performing binary addition on two input bits.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
 #include "HalfAdder.h"
 
 /**

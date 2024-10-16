@@ -1,3 +1,13 @@
+/**
+ * @file AbstractDevice.h
+ * @brief Declaration of the AbstractDevice class, serving as a base class for all logic circuits in the system.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
 #ifndef ABSTRACTDEVICE_H
 #define ABSTRACTDEVICE_H
 

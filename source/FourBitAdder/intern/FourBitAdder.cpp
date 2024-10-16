@@ -1,3 +1,13 @@
+/**
+ * @file FourBitAdder.h
+ * @brief Implements the FourBitAdder class, performing four-bit binary addition using FullAdder instances.
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
 #include "../FourBitAdder.h"
 #include <sstream>
 #include <algorithm>

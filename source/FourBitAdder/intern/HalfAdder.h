@@ -1,3 +1,15 @@
+/**
+ * @file HalfAdder.h
+ * @brief Declaration of the HalfAdder class, representing a half-adder circuit using basic logic gates.
+ *
+ *
+ * @author [Jateen Joharapurkar]
+ * @author [Mantra Mehta]
+ * @author [Vinay Kasyap]
+ */
+
+
+
 #ifndef HALFADDER_H
 #define HALFADDER_H
 
@@ -40,4 +52,4 @@ private:
     unsigned short int m_carry; ///< Holds the result of the carry
 };
 
-#endif  // HALFADDER_H
+#endif  
