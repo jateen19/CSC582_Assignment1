@@ -20,6 +20,7 @@ void FullAdder::setInputs(unsigned short usiIn1, unsigned short usiIn2, unsigned
     m_usiCarryIn = usiCarryIn;
     m_halfAdder1.setInputs(usiIn1, usiIn2);  // Set inputs to the first half-adder
     m_halfAdder2.setInputs(m_halfAdder1.getSum(), m_usiCarryIn);  // Pass sum to the second half-adder
+    update();  // Call update to ensure outputs are set
 }
 
 /**
@@ -40,4 +41,16 @@ unsigned short FullAdder::getSum() const
 unsigned short FullAdder::getCarry() const
 {
     return m_halfAdder1.getCarry() | m_halfAdder2.getCarry();
+}
+
+/**
+ * @brief Updates the FullAdder's outputs based on the current inputs.
+ */
+void FullAdder::update()
+{
+    // Updates are propagated through the half-adders
+    m_halfAdder1.getSum();
+    m_halfAdder1.getCarry();
+    m_halfAdder2.getSum();
+    m_halfAdder2.getCarry();
 }

@@ -2,12 +2,13 @@
 #define FULLADDER_H
 
 #include "HalfAdder.h"
+#include "AbstractDevice.h"
 
 /**
  * @class FullAdder
  * @brief It represents a full-adder, which performs binary addition of two bits and a carry-in.
  */
-class FullAdder
+class FullAdder : public AbstractDevice
 {
 public:
     /**
@@ -33,14 +34,21 @@ public:
      *
      * @return Sum value (0 or 1).
      */
-    unsigned short getSum() const;
+    unsigned short getSum() const override;
 
     /**
      * @brief Returns the carry-out (CarryOut) calculated by the FullAdder.
      *
      * @return Carry-out value (0 or 1).
      */
-    unsigned short getCarry() const;
+    unsigned short getCarry() const override;
+
+    /**
+     * @brief Updates the FullAdder's output based on its inputs.
+     *
+     * This method is required to satisfy the AbstractDevice interface.
+     */
+    void update() override;
 
 private:
     HalfAdder m_halfAdder1;   /**< First half-adder used in the full-adder. */

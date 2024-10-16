@@ -20,19 +20,28 @@ HalfAdder::~HalfAdder() {}
  */
 void HalfAdder::setInputs(const unsigned short int usiA, const unsigned short int usiB)
 {
+    AbstractDevice::setInputs(usiA, usiB); // Call base class method to set inputs
+    update(); // Trigger the update to recalculate sum and carry
+}
+
+/**
+ * @brief Recalculates the sum and carry based on the inputs.
+ */
+void HalfAdder::update()
+{
     // Use NAND on inputs A and B
-    m_nandGate.set_in1(usiA);
-    m_nandGate.set_in2(usiB);
+    m_nandGate.set_in1(m_usiIn1);
+    m_nandGate.set_in2(m_usiIn2);
     unsigned short int usiNand1 = m_nandGate.out();
 
     // Use NAND on A and output of first NAND gate
-    m_nandGate.set_in1(usiA);
+    m_nandGate.set_in1(m_usiIn1);
     m_nandGate.set_in2(usiNand1);
     unsigned short int usiNand2 = m_nandGate.out();
 
     // Use NAND on B and output of first NAND gate
     m_nandGate.set_in1(usiNand1);
-    m_nandGate.set_in2(usiB);
+    m_nandGate.set_in2(m_usiIn2);
     unsigned short int usiNand3 = m_nandGate.out();
 
     // XOR (sum) is the NAND of the outputs from above two
@@ -41,8 +50,8 @@ void HalfAdder::setInputs(const unsigned short int usiA, const unsigned short in
     m_sum = m_nandGate.out();
 
     // Finding carry
-    m_andGate.set_in1(usiA);
-    m_andGate.set_in2(usiB);
+    m_andGate.set_in1(m_usiIn1);
+    m_andGate.set_in2(m_usiIn2);
     m_carry = m_andGate.out();
 }
 

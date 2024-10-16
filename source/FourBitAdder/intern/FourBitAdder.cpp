@@ -29,6 +29,7 @@ void FourBitAdder::connectAdders()
     for (int i = 0; i < 4; i++)
     {
         m_fullAdders[i].setInputs(0, 0, iCarryIn);
+        m_fullAdders[i].update();  // Call update to ensure proper state calculation
         iCarryIn = m_fullAdders[i].getCarry();  // Update carry for the next FullAdder
     }
 }
@@ -56,6 +57,7 @@ std::string FourBitAdder::add(const std::string& strBinaryA, const std::string& 
 
         // Setting the inputs to the current FullAdder
         m_fullAdders[i].setInputs(iBitA, iBitB, iCarry);
+        m_fullAdders[i].update();  // Call update to ensure proper state calculation
         int iSum = m_fullAdders[i].getSum();
         iCarry = m_fullAdders[i].getCarry();  // Update carry for the next FullAdder
 
@@ -65,9 +67,8 @@ std::string FourBitAdder::add(const std::string& strBinaryA, const std::string& 
     ssResult << iCarry;  // Append the final carry bit
 
     std::string strResult = ssResult.str();
-    std::reverse(strResult.begin(), strResult.end());  
+    std::reverse(strResult.begin(), strResult.end());  // Reverse the result for proper order
 
-    
     while (strResult.length() < 5)
     {
         strResult.insert(strResult.begin(), '0');
