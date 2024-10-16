@@ -3,27 +3,41 @@
 
 #include "LogicGates.h"
 
+/**
+ * @class HalfAdder
+ * @brief A class representing a half-adder circuit using basic logic gates.
+ *
+ * The HalfAdder class simulates the behavior of a half-adder, which performs
+ * binary addition on two input bits and produces a sum and a carry bit.
+ */
+
 class HalfAdder {
 public:
     HalfAdder();
     ~HalfAdder();
 
-    // Set inputs A and B for the half adder
+    /**
+     * @brief Sets the input values for the half-adder.
+     *
+     * @param usiA The first input bit (A).
+     * @param usiB The second input bit (B).
+     */
+
     void setInputs(const unsigned short int usiA, const unsigned short int usiB);
 
-    // Get the calculated sum (A ⊕ B)
+
     unsigned short int getSum() const;
 
-    // Get the calculated carry (A ∧ B)
+
     unsigned short int getCarry() const;
 
 private:
-    AND m_andGate;   // For calculating the carry
-    OR m_orGate;     // Used with NAND to calculate XOR (sum)
-    NAND m_nandGate; // Used with OR to calculate XOR (sum)
+    AND m_andGate;
+    OR m_orGate;
+    NAND m_nandGate;
 
-    unsigned short int m_sum;   // Holds the result of the sum
-    unsigned short int m_carry; // Holds the result of the carry
+    unsigned short int m_sum;
+    unsigned short int m_carry;
 };
 
-#endif  // HALFADDER_H
+#endif
