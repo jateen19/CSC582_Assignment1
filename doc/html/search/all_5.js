@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7ehalfadder_0',['~HalfAdder',['../classHalfAdder.html#a421e5774aa485d92220fc4fbc071266a',1,'HalfAdder']]]
+  ['setinputs_0',['setinputs',['../classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d',1,'HalfAdder::setInputs()'],['../classFullAdder.html#a4e93e556929d63a44bf112103576cba1',1,'FullAdder::setInputs()'],['../classAbstractDevice.html#a6202a33b839e0f7dece58e3a15f318c1',1,'AbstractDevice::setInputs()']]]
 ];

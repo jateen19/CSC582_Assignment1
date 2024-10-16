@@ -1,21 +1,24 @@
 var indexSectionsWithContent =
 {
-  0: "afghs~",
-  1: "fh",
-  2: "afghs~"
+  0: "afghmsu~",
+  1: "afh",
+  2: "afghsu~",
+  3: "m"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "functions"
+  2: "functions",
+  3: "variables"
 };
 
 var indexSectionLabels =
 {
   0: "All",
   1: "Classes",
-  2: "Functions"
+  2: "Functions",
+  3: "Variables"
 };
 

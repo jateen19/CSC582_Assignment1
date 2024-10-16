@@ -1,7 +1,18 @@
 <map id="FullAdder::setInputs" name="FullAdder::setInputs">
-<area shape="rect" id="Node000001" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="5,31,156,56"/>
-<area shape="rect" id="Node000002" href="$classHalfAdder.html#a38e0126a4cbd25cfdaf72e7399f09743" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="209,5,354,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,31,195,26,196,31,157,36"/>
-<area shape="rect" id="Node000003" href="$classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d" title="Sets the input values for the half&#45;adder." alt="" coords="204,55,359,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,50,191,54,190,59,156,55"/>
+<area shape="rect" id="Node000001" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="5,104,156,129"/>
+<area shape="rect" id="Node000002" href="$classHalfAdder.html#acbe6c9e43497552d4d87d8f2691ee13b" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="429,105,574,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,114,415,115,415,120,156,120"/>
+<area shape="rect" id="Node000003" href="$classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d" title="Sets the input values for the half&#45;adder." alt="" coords="204,53,359,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,101,217,79,218,85,133,106"/>
+<area shape="rect" id="Node000007" href="$classFullAdder.html#ad920a81ce54747711b90cd82375ce1d5" title="Updates the FullAdder&#39;s output based on its inputs." alt="" coords="213,155,349,180"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="133,127,218,149,217,154,131,132"/>
+<area shape="rect" id="Node000004" href="$classAbstractDevice.html#a6202a33b839e0f7dece58e3a15f318c1" title="Sets the input pins for the device." alt="" coords="407,55,596,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="359,64,393,64,393,69,359,69"/>
+<area shape="rect" id="Node000006" href="$classHalfAdder.html#a59cca82a5f999cef2886fd5dc222be4d" title="Recalculates the sum and carry based on the inputs." alt="" coords="431,5,571,31"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="340,51,429,31,430,36,341,56"/>
+<area shape="rect" id="Node000005" href="$classAbstractDevice.html#af132b14f0f02e01be99a25947a110f59" title="Recalculates the output values based on the current inputs." alt="" coords="644,55,819,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="596,65,630,65,630,70,596,70"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="338,152,430,131,431,136,339,157"/>
+<area shape="rect" id="Node000008" href="$classHalfAdder.html#afec3e044dfb28eb8d5ceed1474333006" title="Gets the carry (A AND B) calculated by the half&#45;adder." alt="" coords="426,155,577,180"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="350,165,412,165,412,170,350,170"/>
 </map>

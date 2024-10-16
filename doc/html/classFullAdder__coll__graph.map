@@ -1,3 +1,5 @@
 <map id="FullAdder" name="FullAdder">
-<area shape="rect" id="Node000001" title="It represents a full&#45;adder, which performs binary addition of two bits and a carry&#45;in." alt="" coords="5,5,105,131"/>
+<area shape="rect" id="Node000001" title="It represents a full&#45;adder, which performs binary addition of two bits and a carry&#45;in." alt="" coords="30,259,130,404"/>
+<area shape="rect" id="Node000002" href="$classAbstractDevice.html" title="A base class for all devices (circuits) in the system." alt="" coords="5,5,155,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,225,83,258,77,258,77,225"/>
 </map>

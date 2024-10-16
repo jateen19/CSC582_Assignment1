@@ -71,6 +71,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classHalfAdder-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HalfAdder Class Reference</div></div>
 </div><!--header-->
@@ -81,11 +82,23 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="HalfAdder_8h_source.html">HalfAdder.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for HalfAdder:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHalfAdder__inherit__graph.png" border="0" usemap="#aHalfAdder_inherit__map" alt="Inheritance graph"/></div>
+<map name="aHalfAdder_inherit__map" id="aHalfAdder_inherit__map">
+<area shape="rect" title="A class representing a half&#45;adder circuit using basic logic gates." alt="" coords="23,259,137,424"/>
+<area shape="rect" href="classAbstractDevice.html" title="A base class for all devices (circuits) in the system." alt="" coords="5,5,155,211"/>
+<area shape="poly" title=" " alt="" coords="83,224,83,259,77,259,77,224"/>
+</map>
+</div>
+<div class="dynheader">
 Collaboration diagram for HalfAdder:</div>
 <div class="dyncontent">
 <div class="center"><img src="classHalfAdder__coll__graph.png" border="0" usemap="#aHalfAdder_coll__map" alt="Collaboration graph"/></div>
 <map name="aHalfAdder_coll__map" id="aHalfAdder_coll__map">
-<area shape="rect" title="A class representing a half&#45;adder circuit using basic logic gates." alt="" coords="5,5,120,151"/>
+<area shape="rect" title="A class representing a half&#45;adder circuit using basic logic gates." alt="" coords="23,259,137,424"/>
+<area shape="rect" href="classAbstractDevice.html" title="A base class for all devices (circuits) in the system." alt="" coords="5,5,155,211"/>
+<area shape="poly" title=" " alt="" coords="83,224,83,259,77,259,77,224"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -102,22 +115,59 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf60416bb1b40ae7ef53509a8d45dc9d" id="r_aaf60416bb1b40ae7ef53509a8d45dc9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d">setInputs</a> (const unsigned short int usiA, const unsigned short int usiB)</td></tr>
 <tr class="memdesc:aaf60416bb1b40ae7ef53509a8d45dc9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the input values for the half-adder.  <br /></td></tr>
 <tr class="separator:aaf60416bb1b40ae7ef53509a8d45dc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e0126a4cbd25cfdaf72e7399f09743" id="r_a38e0126a4cbd25cfdaf72e7399f09743"><td class="memItemLeft" align="right" valign="top">unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#a38e0126a4cbd25cfdaf72e7399f09743">getSum</a> () const</td></tr>
-<tr class="memdesc:a38e0126a4cbd25cfdaf72e7399f09743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sum (A XOR B) calculated by the half-adder.  <br /></td></tr>
-<tr class="separator:a38e0126a4cbd25cfdaf72e7399f09743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ea9823ff446a95032b933f914c511c" id="r_a79ea9823ff446a95032b933f914c511c"><td class="memItemLeft" align="right" valign="top">unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#a79ea9823ff446a95032b933f914c511c">getCarry</a> () const</td></tr>
-<tr class="memdesc:a79ea9823ff446a95032b933f914c511c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the carry (A AND B) calculated by the half-adder.  <br /></td></tr>
-<tr class="separator:a79ea9823ff446a95032b933f914c511c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe6c9e43497552d4d87d8f2691ee13b" id="r_acbe6c9e43497552d4d87d8f2691ee13b"><td class="memItemLeft" align="right" valign="top">unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#acbe6c9e43497552d4d87d8f2691ee13b">getSum</a> () const override</td></tr>
+<tr class="memdesc:acbe6c9e43497552d4d87d8f2691ee13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sum (A XOR B) calculated by the half-adder.  <br /></td></tr>
+<tr class="separator:acbe6c9e43497552d4d87d8f2691ee13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec3e044dfb28eb8d5ceed1474333006" id="r_afec3e044dfb28eb8d5ceed1474333006"><td class="memItemLeft" align="right" valign="top">unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#afec3e044dfb28eb8d5ceed1474333006">getCarry</a> () const override</td></tr>
+<tr class="memdesc:afec3e044dfb28eb8d5ceed1474333006"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the carry (A AND B) calculated by the half-adder.  <br /></td></tr>
+<tr class="separator:afec3e044dfb28eb8d5ceed1474333006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classAbstractDevice"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAbstractDevice')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAbstractDevice.html">AbstractDevice</a></td></tr>
+<tr class="memitem:a9b544958373df440f9d63e813f20b69b inherit pub_methods_classAbstractDevice" id="r_a9b544958373df440f9d63e813f20b69b"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>AbstractDevice</b> ()</td></tr>
+<tr class="memdesc:a9b544958373df440f9d63e813f20b69b inherit pub_methods_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for <a class="el" href="classAbstractDevice.html" title="A base class for all devices (circuits) in the system.">AbstractDevice</a>. <br /></td></tr>
+<tr class="separator:a9b544958373df440f9d63e813f20b69b inherit pub_methods_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d52fb894f2e41de07cfbaf3b09247f3 inherit pub_methods_classAbstractDevice" id="r_a0d52fb894f2e41de07cfbaf3b09247f3"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~AbstractDevice</b> ()</td></tr>
+<tr class="memdesc:a0d52fb894f2e41de07cfbaf3b09247f3 inherit pub_methods_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor for <a class="el" href="classAbstractDevice.html" title="A base class for all devices (circuits) in the system.">AbstractDevice</a>. <br /></td></tr>
+<tr class="separator:a0d52fb894f2e41de07cfbaf3b09247f3 inherit pub_methods_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6202a33b839e0f7dece58e3a15f318c1 inherit pub_methods_classAbstractDevice" id="r_a6202a33b839e0f7dece58e3a15f318c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractDevice.html#a6202a33b839e0f7dece58e3a15f318c1">setInputs</a> (const unsigned short int usiIn1, const unsigned short int usiIn2)</td></tr>
+<tr class="memdesc:a6202a33b839e0f7dece58e3a15f318c1 inherit pub_methods_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the input pins for the device.  <br /></td></tr>
+<tr class="separator:a6202a33b839e0f7dece58e3a15f318c1 inherit pub_methods_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a59cca82a5f999cef2886fd5dc222be4d" id="r_a59cca82a5f999cef2886fd5dc222be4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHalfAdder.html#a59cca82a5f999cef2886fd5dc222be4d">update</a> () override</td></tr>
+<tr class="memdesc:a59cca82a5f999cef2886fd5dc222be4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates the sum and carry based on the inputs.  <br /></td></tr>
+<tr class="separator:a59cca82a5f999cef2886fd5dc222be4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classAbstractDevice"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classAbstractDevice')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classAbstractDevice.html">AbstractDevice</a></td></tr>
+<tr class="memitem:ae10486e25b314992285ff77177c69f68 inherit pro_attribs_classAbstractDevice" id="r_ae10486e25b314992285ff77177c69f68"><td class="memItemLeft" align="right" valign="top">
+unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><b>m_usiIn1</b></td></tr>
+<tr class="memdesc:ae10486e25b314992285ff77177c69f68 inherit pro_attribs_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input pin 1. <br /></td></tr>
+<tr class="separator:ae10486e25b314992285ff77177c69f68 inherit pro_attribs_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6975584245a28ae37e6c0f1ae94e0d inherit pro_attribs_classAbstractDevice" id="r_a4e6975584245a28ae37e6c0f1ae94e0d"><td class="memItemLeft" align="right" valign="top">
+unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><b>m_usiIn2</b></td></tr>
+<tr class="memdesc:a4e6975584245a28ae37e6c0f1ae94e0d inherit pro_attribs_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input pin 2. <br /></td></tr>
+<tr class="separator:a4e6975584245a28ae37e6c0f1ae94e0d inherit pro_attribs_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d081d2a778a528254df3579c79766fb inherit pro_attribs_classAbstractDevice" id="r_a6d081d2a778a528254df3579c79766fb"><td class="memItemLeft" align="right" valign="top">
+unsigned short int&#160;</td><td class="memItemRight" valign="bottom"><b>m_usiOut</b></td></tr>
+<tr class="memdesc:a6d081d2a778a528254df3579c79766fb inherit pro_attribs_classAbstractDevice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin. <br /></td></tr>
+<tr class="separator:a6d081d2a778a528254df3579c79766fb inherit pro_attribs_classAbstractDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class representing a half-adder circuit using basic logic gates. </p>
 <p>The <a class="el" href="classHalfAdder.html" title="A class representing a half-adder circuit using basic logic gates.">HalfAdder</a> class simulates the behavior of a half-adder, which performs binary addition on two input bits and produces a sum and a carry bit. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79ea9823ff446a95032b933f914c511c" name="a79ea9823ff446a95032b933f914c511c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79ea9823ff446a95032b933f914c511c">&#9670;&#160;</a></span>getCarry()</h2>
+<a id="afec3e044dfb28eb8d5ceed1474333006" name="afec3e044dfb28eb8d5ceed1474333006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec3e044dfb28eb8d5ceed1474333006">&#9670;&#160;</a></span>getCarry()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">unsigned short int HalfAdder::getCarry </td>
@@ -126,30 +176,46 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Gets the carry (A AND B) calculated by the half-adder. </p>
 <dl class="section return"><dt>Returns</dt><dd>The carry value (0 or 1). </dd></dl>
+
+<p>Implements <a class="el" href="classAbstractDevice.html#ad230e9d00766d3b9ca2e43d19f56c463">AbstractDevice</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classHalfAdder_a79ea9823ff446a95032b933f914c511c_icgraph.png" border="0" usemap="#aclassHalfAdder_a79ea9823ff446a95032b933f914c511c_icgraph" alt=""/></div>
-<map name="aclassHalfAdder_a79ea9823ff446a95032b933f914c511c_icgraph" id="aclassHalfAdder_a79ea9823ff446a95032b933f914c511c_icgraph">
-<area shape="rect" title="Gets the carry (A AND B) calculated by the half&#45;adder." alt="" coords="387,5,537,31"/>
-<area shape="rect" href="classFullAdder.html#a9cc2ac63e4a171fca1532318280ed32e" title="Returns the carry&#45;out (CarryOut) calculated by the FullAdder." alt="" coords="192,5,339,31"/>
-<area shape="poly" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
-<area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,5,144,31"/>
-<area shape="poly" title=" " alt="" coords="178,21,145,21,145,15,178,15"/>
+<div class="center"><img src="classHalfAdder_afec3e044dfb28eb8d5ceed1474333006_icgraph.png" border="0" usemap="#aclassHalfAdder_afec3e044dfb28eb8d5ceed1474333006_icgraph" alt=""/></div>
+<map name="aclassHalfAdder_afec3e044dfb28eb8d5ceed1474333006_icgraph" id="aclassHalfAdder_afec3e044dfb28eb8d5ceed1474333006_icgraph">
+<area shape="rect" title="Gets the carry (A AND B) calculated by the half&#45;adder." alt="" coords="575,31,725,56"/>
+<area shape="rect" href="classFullAdder.html#a012d6b14dced3c1f35f0d2ecfb1d7e46" title="Returns the carry&#45;out (CarryOut) calculated by the FullAdder." alt="" coords="194,5,341,31"/>
+<area shape="poly" title=" " alt="" coords="561,40,341,25,341,20,561,35"/>
+<area shape="rect" href="classFullAdder.html#ad920a81ce54747711b90cd82375ce1d5" title="Updates the FullAdder&#39;s output based on its inputs." alt="" coords="391,56,527,81"/>
+<area shape="poly" title=" " alt="" coords="562,58,527,62,527,57,561,52"/>
+<area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,56,144,81"/>
+<area shape="poly" title=" " alt="" coords="206,37,125,58,123,53,204,32"/>
+<area shape="poly" title=" " alt="" coords="377,71,144,71,144,66,377,66"/>
+<area shape="rect" href="classFullAdder.html#a4e93e556929d63a44bf112103576cba1" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,107,343,132"/>
+<area shape="poly" title=" " alt="" coords="397,88,317,109,316,104,396,82"/>
+<area shape="poly" title=" " alt="" coords="204,106,123,84,125,79,206,101"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a38e0126a4cbd25cfdaf72e7399f09743" name="a38e0126a4cbd25cfdaf72e7399f09743"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38e0126a4cbd25cfdaf72e7399f09743">&#9670;&#160;</a></span>getSum()</h2>
+<a id="acbe6c9e43497552d4d87d8f2691ee13b" name="acbe6c9e43497552d4d87d8f2691ee13b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe6c9e43497552d4d87d8f2691ee13b">&#9670;&#160;</a></span>getSum()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">unsigned short int HalfAdder::getSum </td>
@@ -158,23 +224,34 @@ Here is the caller graph for this function:</div>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Gets the sum (A XOR B) calculated by the half-adder. </p>
 <dl class="section return"><dt>Returns</dt><dd>The sum value (0 or 1). </dd></dl>
+
+<p>Implements <a class="el" href="classAbstractDevice.html#acdebb0f245ca6230f74b53d9d63fffbc">AbstractDevice</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classHalfAdder_a38e0126a4cbd25cfdaf72e7399f09743_icgraph.png" border="0" usemap="#aclassHalfAdder_a38e0126a4cbd25cfdaf72e7399f09743_icgraph" alt=""/></div>
-<map name="aclassHalfAdder_a38e0126a4cbd25cfdaf72e7399f09743_icgraph" id="aclassHalfAdder_a38e0126a4cbd25cfdaf72e7399f09743_icgraph">
-<area shape="rect" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="391,31,536,56"/>
-<area shape="rect" href="classFullAdder.html#abf1c8fbde7b532999e42d4aa0616e909" title="Returns the sum (A ⊕ B ⊕ CarryIn) calculated by the FullAdder." alt="" coords="197,5,338,31"/>
-<area shape="poly" title=" " alt="" coords="377,35,338,30,339,25,378,30"/>
+<div class="center"><img src="classHalfAdder_acbe6c9e43497552d4d87d8f2691ee13b_icgraph.png" border="0" usemap="#aclassHalfAdder_acbe6c9e43497552d4d87d8f2691ee13b_icgraph" alt=""/></div>
+<map name="aclassHalfAdder_acbe6c9e43497552d4d87d8f2691ee13b_icgraph" id="aclassHalfAdder_acbe6c9e43497552d4d87d8f2691ee13b_icgraph">
+<area shape="rect" title="Gets the sum (A XOR B) calculated by the half&#45;adder." alt="" coords="575,55,720,80"/>
+<area shape="rect" href="classFullAdder.html#ae6a80b28dfd05c8e22bed753e9ad49de" title="Returns the sum (A ⊕ B ⊕ CarryIn) calculated by the FullAdder." alt="" coords="197,5,338,31"/>
+<area shape="poly" title=" " alt="" coords="560,56,526,51,338,28,339,23,527,46,561,51"/>
 <area shape="rect" href="classFullAdder.html#a4e93e556929d63a44bf112103576cba1" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,55,343,80"/>
-<area shape="poly" title=" " alt="" coords="378,56,343,61,343,55,377,51"/>
-<area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,31,144,56"/>
-<area shape="poly" title=" " alt="" coords="183,32,145,37,144,32,183,26"/>
-<area shape="poly" title=" " alt="" coords="178,59,144,55,145,49,179,54"/>
+<area shape="poly" title=" " alt="" coords="561,70,343,70,343,65,561,65"/>
+<area shape="rect" href="classFullAdder.html#ad920a81ce54747711b90cd82375ce1d5" title="Updates the FullAdder&#39;s output based on its inputs." alt="" coords="391,105,527,131"/>
+<area shape="poly" title=" " alt="" coords="587,86,508,108,506,103,585,81"/>
+<area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,55,144,80"/>
+<area shape="poly" title=" " alt="" coords="205,37,126,57,125,52,203,31"/>
+<area shape="poly" title=" " alt="" coords="179,70,145,70,145,65,179,65"/>
+<area shape="poly" title=" " alt="" coords="377,116,288,108,192,95,127,83,128,77,192,90,288,102,377,110"/>
+<area shape="poly" title=" " alt="" coords="396,104,316,83,317,78,397,99"/>
 </map>
 </div>
 
@@ -224,11 +301,68 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_cgraph.png" border="0" usemap="#aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_cgraph" alt=""/></div>
+<map name="aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_cgraph" id="aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_cgraph">
+<area shape="rect" title="Sets the input values for the half&#45;adder." alt="" coords="5,31,160,56"/>
+<area shape="rect" href="classAbstractDevice.html#a6202a33b839e0f7dece58e3a15f318c1" title="Sets the input pins for the device." alt="" coords="208,5,397,31"/>
+<area shape="poly" title=" " alt="" coords="160,32,194,28,195,33,160,37"/>
+<area shape="rect" href="classHalfAdder.html#a59cca82a5f999cef2886fd5dc222be4d" title="Recalculates the sum and carry based on the inputs." alt="" coords="233,55,373,80"/>
+<area shape="poly" title=" " alt="" coords="160,49,220,56,219,61,160,54"/>
+<area shape="rect" href="classAbstractDevice.html#af132b14f0f02e01be99a25947a110f59" title="Recalculates the output values based on the current inputs." alt="" coords="445,5,620,31"/>
+<area shape="poly" title=" " alt="" coords="398,15,432,15,432,21,398,21"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_icgraph.png" border="0" usemap="#aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_icgraph" alt=""/></div>
 <map name="aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_icgraph" id="aclassHalfAdder_aaf60416bb1b40ae7ef53509a8d45dc9d_icgraph">
 <area shape="rect" title="Sets the input values for the half&#45;adder." alt="" coords="391,5,545,31"/>
+<area shape="rect" href="classFullAdder.html#a4e93e556929d63a44bf112103576cba1" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,5,343,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,343,21,343,15,377,15"/>
+<area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,5,144,31"/>
+<area shape="poly" title=" " alt="" coords="179,21,145,21,145,15,179,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a59cca82a5f999cef2886fd5dc222be4d" name="a59cca82a5f999cef2886fd5dc222be4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cca82a5f999cef2886fd5dc222be4d">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HalfAdder::update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recalculates the sum and carry based on the inputs. </p>
+
+<p>Implements <a class="el" href="classAbstractDevice.html#af132b14f0f02e01be99a25947a110f59">AbstractDevice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHalfAdder_a59cca82a5f999cef2886fd5dc222be4d_icgraph.png" border="0" usemap="#aclassHalfAdder_a59cca82a5f999cef2886fd5dc222be4d_icgraph" alt=""/></div>
+<map name="aclassHalfAdder_a59cca82a5f999cef2886fd5dc222be4d_icgraph" id="aclassHalfAdder_a59cca82a5f999cef2886fd5dc222be4d_icgraph">
+<area shape="rect" title="Recalculates the sum and carry based on the inputs." alt="" coords="593,5,733,31"/>
+<area shape="rect" href="classHalfAdder.html#aaf60416bb1b40ae7ef53509a8d45dc9d" title="Sets the input values for the half&#45;adder." alt="" coords="391,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="579,21,546,21,546,15,579,15"/>
 <area shape="rect" href="classFullAdder.html#a4e93e556929d63a44bf112103576cba1" title="Sets the inputs A, B, and carry&#45;in for the FullAdder." alt="" coords="192,5,343,31"/>
 <area shape="poly" title=" " alt="" coords="377,21,343,21,343,15,377,15"/>
 <area shape="rect" href="classFourBitAdder.html#aa87f350cb0f8d17d486a7a730a37f761" title="Adds two four&#45;bit binary numbers along with an optional carry&#45;in." alt="" coords="5,5,144,31"/>

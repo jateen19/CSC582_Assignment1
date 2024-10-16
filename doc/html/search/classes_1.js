@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['halfadder_0',['HalfAdder',['../classHalfAdder.html',1,'']]]
+  ['fourbitadder_0',['FourBitAdder',['../classFourBitAdder.html',1,'']]],
+  ['fulladder_1',['FullAdder',['../classFullAdder.html',1,'']]]
 ];

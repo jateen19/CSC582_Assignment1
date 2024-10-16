@@ -1,3 +1,5 @@
 <map id="HalfAdder" name="HalfAdder">
-<area shape="rect" id="Node000001" title="A class representing a half&#45;adder circuit using basic logic gates." alt="" coords="5,5,120,151"/>
+<area shape="rect" id="Node000001" title="A class representing a half&#45;adder circuit using basic logic gates." alt="" coords="23,259,137,424"/>
+<area shape="rect" id="Node000002" href="$classAbstractDevice.html" title="A base class for all devices (circuits) in the system." alt="" coords="5,5,155,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,224,83,259,77,259,77,224"/>
 </map>
